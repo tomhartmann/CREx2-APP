@@ -21,19 +21,19 @@ The first command produces two scenarios of rearrangements that transform the gi
 Feel free to send bug reports or any other kind of impressions or suggestions on *CREx2* to thartmann@informatik.uni-leipzig.de.
 
 References:
-[Bernt et al. 2007]\n
-M. Bernt, D. Merkle, K. Ramsch, G. Fritzsch, M. Perserke, D. Bernhard, M. Schlegel, P. Stadler, M. Middendorf
-"CREx: Inferring Genomic Rearrangements Based on Common Intervals"
+[Bernt et al. 2007] 
+M. Bernt, D. Merkle, K. Ramsch, G. Fritzsch, M. Perserke, D. Bernhard, M. Schlegel, P. Stadler, M. Middendorf;
+"CREx: Inferring Genomic Rearrangements Based on Common Intervals";
 Bioinformatics, 23(21): 2957-2958, 2007. 
 
-[Hartmann et al. 2018]
-Tom Hartmann, Matthias Bernt, Martin Middendorf
-"An Exact Algorithm for Sorting by Weighted Preserving Genome Rearrangements"
+[Hartmann et al. 2018] 
+Tom Hartmann, Matthias Bernt, Martin Middendorf;
+"An Exact Algorithm for Sorting by Weighted Preserving Genome Rearrangements";
 IEEE/ACM Transactions on Computational Biology and Bioinformatics (in press)
 DOI 10.1109/TCBB.2018.2831661
 
-[Hartmann 2019]
-Tom Hartmann
-"Models and Algorithms for Sorting Permutations with Tandem Duplication and Random Loss"
-PhD Thesis
+[Hartmann 2019] 
+Tom Hartmann;
+"Models and Algorithms for Sorting Permutations with Tandem Duplication and Random Loss";
+PhD Thesis;
 University Leipzig 2018
