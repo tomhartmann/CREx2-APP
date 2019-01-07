@@ -1,0 +1,7 @@
+#This is an example file which contains the gene orders of the input genomes.
+
+> gene_order_1
+-cob nad3 rrnS1 -atp8 cox1 nad1 -trnV -trnH
+
+> gene_order_2
+-nad1 -cob -atp8 -trnH -rrnS1 -trnV -nad3 -cox1
