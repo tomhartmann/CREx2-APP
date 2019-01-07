@@ -21,7 +21,7 @@ The first command produces two scenarios of rearrangements that transform the gi
 Feel free to send bug reports or any other kind of impressions or suggestions on *CREx2* to thartmann@informatik.uni-leipzig.de.
 
 References:
-[Bernt et al. 2007]
+[Bernt et al. 2007]\n
 M. Bernt, D. Merkle, K. Ramsch, G. Fritzsch, M. Perserke, D. Bernhard, M. Schlegel, P. Stadler, M. Middendorf
 "CREx: Inferring Genomic Rearrangements Based on Common Intervals"
 Bioinformatics, 23(21): 2957-2958, 2007. 
