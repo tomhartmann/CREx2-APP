@@ -18,42 +18,6 @@ ii) @./crex2 -f example.fas -d@.
 
 The first command produces two scenarios of rearrangements that transform the given gene orders gene_order_1 and gene_order_2 (see example.fas) into each other. Thereby, equally weighted rearrangements are used. The second command produces a table that gives only the lengths of these scenarios.
 
-The output should be Command~i):
-
-gene_order_1 --> gene_order_2:
-cob trnH trnV -nad1 -cox1 atp8 -rrnS1 -nad3
-scenario: alternative(
-	unordered{
-		transposition(cox1 ,nad1 ,)
-,		ordered[
-			tdrl(nad3 rrnS1 cox1 nad1 ,atp8 trnV trnH ,)
-,			inversion(nad3 rrnS1 cox1 nad1 )
-,			tdrl(rrnS1 atp8 cox1 nad1 trnH ,nad3 trnV ,)
-,			tdrl(nad3 cox1 nad1 trnV ,rrnS1 atp8 trnH ,)
-		] complete=1
-,	} complete=1
-,) complete=1
-cob nad1 cox1 nad3 trnV rrnS1 trnH atp8
-gene_order_2 --> gene_order_1:
-cob nad1 cox1 nad3 trnV rrnS1 trnH atp8
-scenario: alternative(
-	unordered{
-		transposition(cox1 ,nad1 ,)
-,		ordered[
-			transposition(rrnS1 ,trnV ,)
-,			inversion(nad3 rrnS1 cox1 nad1 )
-,			tdrl(atp8 cox1 nad1 trnH ,nad3 rrnS1 trnV ,)
-,			tdrl(trnV trnH ,nad3 rrnS1 atp8 cox1 nad1 ,)
-		] complete=1
-,	} complete=1
-,) complete=1
-cob trnH trnV -nad1 -cox1 atp8 -rrnS1 -nad3
-
-and for Command~ii):
-
-gene_order_1	gene_order_2	5
-gene_order_2	gene_order_1	5
-
 Feel free to send bug reports or any other kind of impressions or suggestions on *CREx2* to thartmann@informatik.uni-leipzig.de.
 
 References:
