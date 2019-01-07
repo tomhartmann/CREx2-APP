@@ -1,7 +1,7 @@
 /**
  * program to calculate a parsimonious (w.r.t. given weighting), preserving scenario rearranging one given gene order into another using
  * 			Inversions, Transpositions, inverse Transpositions, and Tandem duplication random loss.
- * 			Combination of DP + ILP
+ * 			Combination of DP + approximation algorithm
  * @author: T. Hartmann + M. Bernt
  */
 
