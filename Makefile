@@ -1,9 +1,5 @@
-CXX=clang++
 CC=g++
 CFLAGS=-Wall -O3 -g -pg -std=gnu++11 -w
-GUROBI_VERSION = 81
-GUROBI_LINK_LIB = -L$(GUROBI_HOME)/lib -lgurobi$(GUROBI_VERSION)
-GUROBI_CXX_LINK_LIB = -L $(GUROBI_HOME)/lib -lgurobi_c++ -lgurobi$(GUROBI_VERSION)
 
 TARGET=crex2
 
